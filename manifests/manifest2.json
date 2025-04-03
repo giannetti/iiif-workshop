@@ -62,8 +62,8 @@
       "@id" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589",
       "@type" : "sc:Canvas",
       "label" : "Verrocchio, David, c.1925",
-      "height" : 0,
-      "width" : 0,
+				"height": 3959,
+				"width": 2781,
       "images" : [ {
         "@type" : "oa:Annotation",
         "@id" : "https://rutgersdh.github.io/ars/img/derivatives/iiif/annotation/ars41903.json",

@@ -84,7 +84,58 @@
         "@context" : "http://iiif.io/api/presentation/2/context.json"
       } ],
       "related" : ""
-    } ]
+    },
+      {
+					"@id": "http://dcfcdd96-93da-490e-9ed3-7def6f937426",
+					"@type": "sc:Canvas",
+					"label": "RRC 448/3",
+					"height": 3026,
+					"width": 3026,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e9556e40-8cbc-4683-a17a-5909c64d6a50",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring",
+												"gray"
+											]
+										}
+									]
+								},
+								"height": 3026,
+								"width": 3026
+							},
+							"on": "http://dcfcdd96-93da-490e-9ed3-7def6f937426"
+						}
+					],
+					"related": ""
+				}
+    ]
   } ],
   "structures" : [ {
     "@id" : "http://example.org/iiif/book1/range/top",

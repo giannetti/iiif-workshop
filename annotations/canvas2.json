@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Pseudo Arabic script on David's breast plate",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Pseudo Arabic script on David's breast plate</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-03T16:11:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743696705303",
+    "dcterms:modified" : "2025-04-03T16:11:45",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1063,2071,1303,1183"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1063.42744,2383.36351l159.27011,-113.76437l250.28161,972.68534l193.39943,-432.3046l267.34626,-420.92816l210.46408,-318.54023l221.84052,51.19397l-210.46408,307.16379l-381.11063,676.89799l-301.47557,147.89368l-312.85201,-153.5819l-85.32328,-705.33908z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"rough_path_a6b20762-0ca3-4945-b8bc-cac2527463de\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589"
+    } ]
+  } ],
+  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/canvas2.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

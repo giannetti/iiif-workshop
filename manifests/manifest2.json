@@ -3,13 +3,18 @@
   "@id" : "https://giannetti.github.io/iiif-workshop/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "IIIF Workshop",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/8978222/0841ba0ee1a38a2fda340c9922a9d072/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
-    "value" : "Rutgers College"
+    "value" : "Francesca Giannetti"
   }, {
     "label" : "Published",
     "value" : [ {
-      "@value" : "New Brunswick, New Jersey, ca. 1911",
+      "@value" : "New Brunswick, New Jersey, 2025",
       "@language" : "en"
     } ]
   } ],
@@ -18,7 +23,7 @@
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Creative Commons 4.0 by-nc-sa",
+  "attribution" : "Creative Commons 3.0",
   "sequences" : [ {
     "@id" : "http://864eadc8-841a-40bc-b2cd-5049ed293a33",
     "@type" : "sc:Sequence",
@@ -30,7 +35,7 @@
     "canvases" : [ {
       "@id" : "http://2b042b90-f311-4007-8641-137d35a194c3",
       "@type" : "sc:Canvas",
-      "label" : "College Avenue Campus",
+      "label" : "College Avenue Campus, ca. 1911",
       "height" : 567,
       "width" : 864,
       "images" : [ {
@@ -57,13 +62,18 @@
         },
         "on" : "http://2b042b90-f311-4007-8641-137d35a194c3"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/canvas1.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "SAS annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589",
       "@type" : "sc:Canvas",
       "label" : "Verrocchio, David, c.1925",
-				"height": 3959,
-				"width": 2781,
+      "height" : 3959,
+      "width" : 2781,
       "images" : [ {
         "@type" : "oa:Annotation",
         "@id" : "https://rutgersdh.github.io/ars/img/derivatives/iiif/annotation/ars41903.json",
@@ -83,95 +93,69 @@
         "on" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589",
         "@context" : "http://iiif.io/api/presentation/2/context.json"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/canvas2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "SAS annotations"
+      } ],
       "related" : ""
-    },
-      {
-					"@id": "http://dcfcdd96-93da-490e-9ed3-7def6f937426",
-					"@type": "sc:Canvas",
-					"label": "RRC 448/3",
-					"height": 3026,
-					"width": 3026,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://e9556e40-8cbc-4683-a17a-5909c64d6a50",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1",
-									"profile": [
-										"http://iiif.io/api/image/2/level1.json",
-										{
-											"formats": [
-												"jpg"
-											],
-											"qualities": [
-												"native",
-												"color",
-												"gray"
-											],
-											"supports": [
-												"regionByPct",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"sizeAboveFull",
-												"rotationBy90s",
-												"mirroring",
-												"gray"
-											]
-										}
-									]
-								},
-								"height": 3026,
-								"width": 3026
-							},
-							"on": "http://dcfcdd96-93da-490e-9ed3-7def6f937426"
-						}
-					],
-					"related": ""
-				}
-    ]
+    }, {
+      "@id" : "http://dcfcdd96-93da-490e-9ed3-7def6f937426",
+      "@type" : "sc:Canvas",
+      "label" : "RRC 448/3",
+      "height" : 3026,
+      "width" : 3026,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e9556e40-8cbc-4683-a17a-5909c64d6a50",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://rucore.libraries.rutgers.edu/api/iiif/image/2.0/rutgers-lib:46483;PTIF-1",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 3026,
+          "width" : 3026
+        },
+        "on" : "http://dcfcdd96-93da-490e-9ed3-7def6f937426"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/canvas3.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "SAS annotations"
+      } ],
+      "related" : ""
+    } ]
   } ],
-  "structures": [
-    {
-        "@id": "http://example.org/iiif/book1/range/top",
-        "@type": "sc:Range",
-        "label": "Table of Contents",
-        "viewingHint": "top",
-        "ranges": [
-            "http://example.org/iiif/book1/range/r1",
-			"http://example.org/iiif/book1/range/r2",
-			"http://example.org/iiif/book1/range/r3"
-        ]
-    },
-    {
-        "@id": "http://example.org/iiif/book1/range/r1",
-        "@type": "sc:Range",
-        "label": "1: IA Map",
-        "canvases": [
-            "http://2b042b90-f311-4007-8641-137d35a194c3"
-        ]
-    },
-	{
-        "@id": "http://example.org/iiif/book1/range/r2",
-        "@type": "sc:Range",
-        "label": "2: Level 0 image in Wax",
-        "canvases": [
-            "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589"
-        ]
-    },
-	{
-        "@id": "http://example.org/iiif/book1/range/r3",
-        "@type": "sc:Range",
-        "label": "3: Coin in RUcore",
-        "canvases": [
-            "http://dcfcdd96-93da-490e-9ed3-7def6f937426"
-        ]
-    }
-]
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/r1", "http://example.org/iiif/book1/range/r2", "http://example.org/iiif/book1/range/r3" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "1: IA Map",
+    "canvases" : [ "http://2b042b90-f311-4007-8641-137d35a194c3" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r2",
+    "@type" : "sc:Range",
+    "label" : "2: Level 0 image in Wax",
+    "canvases" : [ "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r3",
+    "@type" : "sc:Range",
+    "label" : "3: Coin in RUcore",
+    "canvases" : [ "http://dcfcdd96-93da-490e-9ed3-7def6f937426" ]
+  } ]
 }

@@ -26,7 +26,7 @@
       "@value" : "Normal Sequence",
       "@language" : "en"
     } ],
-    "viewingHint" : "paged",
+    "viewingHint" : "non-paged",
     "canvases" : [ {
       "@id" : "http://2b042b90-f311-4007-8641-137d35a194c3",
       "@type" : "sc:Canvas",

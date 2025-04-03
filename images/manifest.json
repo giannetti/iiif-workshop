@@ -9,6 +9,249 @@
     },
     "items": [
         {
+            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg42/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "brachereg42"
+                ]
+            },
+            "height": 1255,
+            "width": 813,
+            "items": [
+                {
+                    "id": "https://giannetti.github.io/iiif-workshop/images/brachereg42/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg42/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://giannetti.github.io/iiif-workshop/images/brachereg42/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 26,
+                                                "height": 40
+                                            },
+                                            {
+                                                "width": 51,
+                                                "height": 79
+                                            },
+                                            {
+                                                "width": 102,
+                                                "height": 157
+                                            },
+                                            {
+                                                "width": 204,
+                                                "height": 314
+                                            },
+                                            {
+                                                "width": 407,
+                                                "height": 628
+                                            },
+                                            {
+                                                "width": 813,
+                                                "height": 1255
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 813,
+                                        "@id": "https://giannetti.github.io/iiif-workshop/images/brachereg42",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1255,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://giannetti.github.io/iiif-workshop/images/brachereg42/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg44/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "brachereg44"
+                ]
+            },
+            "height": 1259,
+            "width": 811,
+            "items": [
+                {
+                    "id": "https://giannetti.github.io/iiif-workshop/images/brachereg44/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg44/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://giannetti.github.io/iiif-workshop/images/brachereg44/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 26,
+                                                "height": 40
+                                            },
+                                            {
+                                                "width": 51,
+                                                "height": 79
+                                            },
+                                            {
+                                                "width": 102,
+                                                "height": 158
+                                            },
+                                            {
+                                                "width": 203,
+                                                "height": 315
+                                            },
+                                            {
+                                                "width": 406,
+                                                "height": 630
+                                            },
+                                            {
+                                                "width": 811,
+                                                "height": 1259
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 811,
+                                        "@id": "https://giannetti.github.io/iiif-workshop/images/brachereg44",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1259,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://giannetti.github.io/iiif-workshop/images/brachereg44/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg43/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "brachereg43"
+                ]
+            },
+            "height": 1259,
+            "width": 810,
+            "items": [
+                {
+                    "id": "https://giannetti.github.io/iiif-workshop/images/brachereg43/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://giannetti.github.io/iiif-workshop/images/brachereg43/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://giannetti.github.io/iiif-workshop/images/brachereg43/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 26,
+                                                "height": 40
+                                            },
+                                            {
+                                                "width": 51,
+                                                "height": 79
+                                            },
+                                            {
+                                                "width": 102,
+                                                "height": 158
+                                            },
+                                            {
+                                                "width": 203,
+                                                "height": 315
+                                            },
+                                            {
+                                                "width": 405,
+                                                "height": 630
+                                            },
+                                            {
+                                                "width": 810,
+                                                "height": 1259
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 810,
+                                        "@id": "https://giannetti.github.io/iiif-workshop/images/brachereg43",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1259,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://giannetti.github.io/iiif-workshop/images/brachereg43/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://giannetti.github.io/iiif-workshop/images/brachereg41/canvas/",
             "type": "Canvas",
             "label": {

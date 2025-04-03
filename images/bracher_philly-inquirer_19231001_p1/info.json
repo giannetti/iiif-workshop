@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 117,
+    "height" : 143
+  }, {
+    "width" : 234,
+    "height" : 286
+  }, {
+    "width" : 468,
+    "height" : 571
+  }, {
+    "width" : 936,
+    "height" : 1142
+  }, {
+    "width" : 1872,
+    "height" : 2283
+  }, {
+    "width" : 3744,
+    "height" : 4566
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3744,
+  "@id" : "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4566
+}

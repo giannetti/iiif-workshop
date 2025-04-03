@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bracher_philly-inquirer_19231001_p1"
+                ]
+            },
+            "height": 4566,
+            "width": 3744,
+            "items": [
+                {
+                    "id": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 117,
+                                                "height": 143
+                                            },
+                                            {
+                                                "width": 234,
+                                                "height": 286
+                                            },
+                                            {
+                                                "width": 468,
+                                                "height": 571
+                                            },
+                                            {
+                                                "width": 936,
+                                                "height": 1142
+                                            },
+                                            {
+                                                "width": 1872,
+                                                "height": 2283
+                                            },
+                                            {
+                                                "width": 3744,
+                                                "height": 4566
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3744,
+                                        "@id": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 4566,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://giannetti.github.io/iiif-workshop/images/bracher_philly-inquirer_19231001_p1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://giannetti.github.io/iiif-workshop/images/brachereg44/canvas/",
             "type": "Canvas",
             "label": {

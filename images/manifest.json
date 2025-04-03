@@ -252,6 +252,87 @@
             ]
         },
         {
+            "id": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bracher-scarlet-letter-1917-p142"
+                ]
+            },
+            "height": 2085,
+            "width": 2928,
+            "items": [
+                {
+                    "id": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 92,
+                                                "height": 66
+                                            },
+                                            {
+                                                "width": 183,
+                                                "height": 131
+                                            },
+                                            {
+                                                "width": 366,
+                                                "height": 261
+                                            },
+                                            {
+                                                "width": 732,
+                                                "height": 522
+                                            },
+                                            {
+                                                "width": 1464,
+                                                "height": 1043
+                                            },
+                                            {
+                                                "width": 2928,
+                                                "height": 2085
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2928,
+                                        "@id": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2085,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://giannetti.github.io/iiif-workshop/images/brachereg41/canvas/",
             "type": "Canvas",
             "label": {

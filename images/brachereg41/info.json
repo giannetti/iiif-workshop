@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 28,
+    "height" : 41
+  }, {
+    "width" : 55,
+    "height" : 82
+  }, {
+    "width" : 110,
+    "height" : 163
+  }, {
+    "width" : 220,
+    "height" : 325
+  }, {
+    "width" : 439,
+    "height" : 649
+  }, {
+    "width" : 878,
+    "height" : 1297
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 878,
+  "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg41",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1297
+}

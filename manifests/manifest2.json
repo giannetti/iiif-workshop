@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://giannetti.github.io/iiif-workshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF Workshop",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Rutgers College"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "New Brunswick, New Jersey, ca. 1911",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Sample images to practice writing manifests",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Creative Commons 4.0 by-nc-sa",
+  "sequences" : [ {
+    "@id" : "http://864eadc8-841a-40bc-b2cd-5049ed293a33",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://2b042b90-f311-4007-8641-137d35a194c3",
+      "@type" : "sc:Canvas",
+      "label" : "College Avenue Campus",
+      "height" : 567,
+      "width" : 864,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://842f20ad-f800-47e8-a9e4-57b4dcda2362",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/cac-1911/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/cac-1911",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 489888,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 567,
+          "width" : 864
+        },
+        "on" : "http://2b042b90-f311-4007-8641-137d35a194c3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589",
+      "@type" : "sc:Canvas",
+      "label" : "Verrocchio, David, c.1925",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://rutgersdh.github.io/ars/img/derivatives/iiif/annotation/ars41903.json",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://rutgersdh.github.io/ars/img/derivatives/iiif/images/ars41903/full/full/0/default.jpg",
+          "@type" : "dcterms:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://rutgersdh.github.io/ars/img/derivatives/iiif/images/ars41903",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "width" : 2781,
+          "height" : 3959
+        },
+        "on" : "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589",
+        "@context" : "http://iiif.io/api/presentation/2/context.json"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://2b042b90-f311-4007-8641-137d35a194c3" ]
+  } ]
+}

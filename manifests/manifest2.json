@@ -137,16 +137,41 @@
 				}
     ]
   } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Introduction",
-    "canvases" : [ "http://2b042b90-f311-4007-8641-137d35a194c3" ]
-  } ]
+  "structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Contents",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/r1",
+			"http://example.org/iiif/book1/range/r2",
+			"http://example.org/iiif/book1/range/r3"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/r1",
+        "@type": "sc:Range",
+        "label": "1: IA Map",
+        "canvases": [
+            "http://2b042b90-f311-4007-8641-137d35a194c3"
+        ]
+    },
+	{
+        "@id": "http://example.org/iiif/book1/range/r2",
+        "@type": "sc:Range",
+        "label": "2: Level 0 image in Wax",
+        "canvases": [
+            "http://ce3f25d0-3bbe-41d0-a838-f7678fe75589"
+        ]
+    },
+	{
+        "@id": "http://example.org/iiif/book1/range/r3",
+        "@type": "sc:Range",
+        "label": "3: Coin in RUcore",
+        "canvases": [
+            "http://dcfcdd96-93da-490e-9ed3-7def6f937426"
+        ]
+    }
+]
 }

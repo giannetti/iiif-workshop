@@ -1,0 +1,154 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Elmer G. Bracher to Earl Reed Silvers, November 3, 1918",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Letter in which Bracher discusses his and Silvers's fraternity (Delta Phi), the imminent end to the war, Spanish flu, Edith Terrill (Silvers's wife), and the Rutgers varsity football team",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution" : "No known copyright;  Rutgers College War Service Bureau Records, 1917-1919 (RG 33/C0/01), Special Collections and University Archives, Rutgers University Libraries",
+  "sequences" : [ {
+    "@id" : "http://b64c2495-3a0a-4ae7-8d98-deee9aa1a87d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://b5a06f3f-b1b3-4d00-804e-751e58bb4391",
+      "@type" : "sc:Canvas",
+      "label" : "Bracher p. 41",
+      "height" : 1297,
+      "width" : 878,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a68af834-f238-4563-8d97-ac7b27a4983b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg41/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg41",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1297,
+          "width" : 878
+        },
+        "on" : "http://b5a06f3f-b1b3-4d00-804e-751e58bb4391"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca",
+      "@type" : "sc:Canvas",
+      "label" : "Bracher p. 42",
+      "height" : 1255,
+      "width" : 813,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d44759b0-8260-495b-9d20-0edb8d6e1a14",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg42/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg42",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1255,
+          "width" : 813
+        },
+        "on" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9aebc5a0-50c3-4a0b-bd08-0afd704b665b",
+      "@type" : "sc:Canvas",
+      "label" : "Bracher p. 43",
+      "height" : 1259,
+      "width" : 810,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ee390a14-53ac-4a89-bf40-2ac0930086c6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg43/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg43",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1259,
+          "width" : 810
+        },
+        "on" : "http://9aebc5a0-50c3-4a0b-bd08-0afd704b665b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01",
+      "@type" : "sc:Canvas",
+      "label" : "Bracher p. 44",
+      "height" : 1259,
+      "width" : 811,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dd6dd342-d57f-48b6-8198-8a3d6b436a7a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg44/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://giannetti.github.io/iiif-workshop/images/brachereg44",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1259,
+          "width" : 811
+        },
+        "on" : "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/r1", "http://example.org/iiif/book1/range/r2", "http://example.org/iiif/book1/range/r3", "http://example.org/iiif/book1/range/r4" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "page 41 of 53",
+    "canvases" : [ "http://b5a06f3f-b1b3-4d00-804e-751e58bb4391" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r2",
+    "@type" : "sc:Range",
+    "label" : "page 42 of 53",
+    "canvases" : [ "http://83794471-8158-45f4-bd5f-55fcbce9a1ca" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r3",
+    "@type" : "sc:Range",
+    "label" : "page 43 of 53",
+    "canvases" : [ "http://9aebc5a0-50c3-4a0b-bd08-0afd704b665b" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r4",
+    "@type" : "sc:Range",
+    "label" : "page 44 of 53",
+    "canvases" : [ "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01" ]
+  } ]
+}

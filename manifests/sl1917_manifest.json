@@ -42,6 +42,11 @@
         },
         "on" : "http://8c1700bb-7f41-4766-b2f4-b4c8d036740b"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/sl1917-annotation.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Bracher and Robeson"
+      } ],
       "related" : ""
     } ]
   } ],

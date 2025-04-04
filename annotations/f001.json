@@ -1,0 +1,57 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "about Newall Chase and Jones being Delts. I didn't know that they were in college, even. What the deuce has become of all the fellows, Sil, that were there when we were? I know about Hank and Del and Bub and Eddie but, of the rest I don't know a thing. Where are Stewie Sniffen and Booch and Bud Letzen. What is Al [?] Perkins doing? Is he married to Mary or drafted or what? I imagine that Jimmie Losie is just like the old \"Louse\" isn't he? Things are looking mighty promising for the war to be over soon aren't they? With Turkey out of it and Austria is on her last legs it certainly looks as if the Huns won't be able to hold out much longer. It looks to me as if the war will be over by",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>about Newall Chase and Jones being Delts. I didn't know that they were in college, even. What the deuce has become of all the fellows, Sil, that were there when we were? I know about Hank and Del and Bub and Eddie but, of the rest I don't know a thing. Where are Stewie Sniffen and Booch and Bud Letzen. What is Al [?] Perkins doing? Is he married to Mary or drafted or what? I imagine that Jimmie Losie is just like the old \"Louse\" isn't he? Things are looking mighty promising for the war to be over soon aren't they? With Turkey out of it and Austria is on her last legs it certainly looks as if the Huns won't be able to hold out much longer. It looks to me as if the war will be over by</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-04T14:20:04",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743776404271",
+    "dcterms:modified" : "2025-04-04T14:20:04",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=22,25,765,1208"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M21.65214,25.46869h382.50962v0h382.50962v604.11694v604.11694h-382.50962h-382.50962v-604.11694z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d0c24337-8eae-436f-a98d-2676c9210e30\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca"
+    }, {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=-2,228,2,2"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M-2,227.81277h1v0h1v1v1h-1h-1v-1z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_817b3c43-dacd-408f-ae32-3b8b395b5877\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca"
+    } ]
+  } ],
+  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f001.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

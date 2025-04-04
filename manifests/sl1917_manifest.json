@@ -22,7 +22,7 @@
       "@type" : "sc:Canvas",
       "label" : "Rutgers College Varsity Football Team, 1917",
       "height" : 2085,
-      "width" : "0",
+      "width" : 2928,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://d2ddc05c-bb4c-492f-b2dd-c9b3bc2b909e",

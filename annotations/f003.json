@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Has anything happened to the football team? I heard that we trimmed Ursinus 67-0 or something like that. Is Sandy still on the job? Sil, do you know Shrimp White's address? I had a letter from him a couple of weeks ago and I lost it and his address with it. If you know it I sure wish you would let me have it. Meet [sic] a fellow at the hospital who knows him very well and he would like to have it also. Going to do a little work now so I'll have to quit.In the BondsPi-an",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Has anything happened to the football team? I heard that we trimmed Ursinus 67-0 or something like that. Is Sandy still on the job? Sil, do you know Shrimp White's address? I had a letter from him a couple of weeks ago and I lost it and his address with it. If you know it I sure wish you would let me have it. Meet [sic] a fellow at the hospital who knows him very well and he would like to have it also. Going to do a little work now so I'll have to quit.<br />In the Bonds<br />Pi-an</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-04T14:21:16",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743776476768",
+    "dcterms:modified" : "2025-04-04T14:21:16",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=32,25,760,1145"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M32.26806,25.46869h380.07704v0h380.07704v572.26918v572.26918h-380.07704h-380.07704v-572.26918z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5fce2463-d47e-4a96-b693-4fe28f6be938\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01"
+    } ]
+  } ],
+  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f003.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

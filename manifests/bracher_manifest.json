@@ -43,6 +43,11 @@
         },
         "on" : "http://b5a06f3f-b1b3-4d00-804e-751e58bb4391"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f000.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Bracher p. 41"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca",
@@ -68,6 +73,11 @@
           "width" : 813
         },
         "on" : "http://83794471-8158-45f4-bd5f-55fcbce9a1ca"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f001.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Bracher p. 42"
       } ],
       "related" : ""
     }, {
@@ -95,6 +105,11 @@
         },
         "on" : "http://9aebc5a0-50c3-4a0b-bd08-0afd704b665b"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f002.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Bracher p. 43"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01",
@@ -120,6 +135,11 @@
           "width" : 811
         },
         "on" : "http://32b7ac58-f4d7-416c-a6e3-6718857b4c01"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f003.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Bracher p. 44"
       } ],
       "related" : ""
     } ]

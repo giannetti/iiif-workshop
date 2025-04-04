@@ -2,10 +2,10 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://giannetti.github.io/iiif-workshop/manifests/sl1917_manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "Rutgers College Varsity Football Team in 1917",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Rutgers College Varsity Football Team in 1917",
+    "@value" : "Bracher in second row, second from right",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/public-domain/cc0/",

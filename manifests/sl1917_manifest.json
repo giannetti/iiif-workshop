@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://giannetti.github.io/iiif-workshop/manifests/sl1917_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://9de5b3c5-3d03-4c55-be11-6acf39d4946d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8c1700bb-7f41-4766-b2f4-b4c8d036740b",
+      "@type" : "sc:Canvas",
+      "label" : "Rutgers College Varsity Football Team, 1917",
+      "height" : 2085,
+      "width" : "0",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d2ddc05c-bb4c-492f-b2dd-c9b3bc2b909e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://giannetti.github.io/iiif-workshop/images/bracher-scarlet-letter-1917-p142",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2085,
+          "width" : 2928
+        },
+        "on" : "http://8c1700bb-7f41-4766-b2f4-b4c8d036740b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

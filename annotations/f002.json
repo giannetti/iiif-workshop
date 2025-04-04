@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Christmas. But, if the Huns decide to fight to the bitter end it will last at least a year longer. They would be mighty foolish [though] if they did that so altogether the prospects are rather prosperous. So Mike is a year old. Does he walk yet, or don't babies walk at that age? By the time I see him he [sic] I guess he will be a pretty big youngster. Have you all been free from the influenza? It certainly must be pretty bad in the States. There's quite a lot of it over here too. How has Eda been? By the way, Sil, Eda must be quite a cook now, isn't she? Remember how she used to fuss around when you were first married? I'll bet she is mighty business like about it now.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Christmas. But, if the Huns decide to fight to the bitter end it will last at least a year longer. They would be mighty foolish [though] if they did that so altogether the prospects are rather prosperous. So Mike is a year old. Does he walk yet, or don't babies walk at that age? By the time I see him he [sic] I guess he will be a pretty big youngster. Have you all been free from the influenza? It certainly must be pretty bad in the States. There's quite a lot of it over here too. How has Eda been? By the way, Sil, Eda must be quite a cook now, isn't she? Remember how she used to fuss around when you were first married? I'll bet she is mighty business like about it now.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-04T14:20:38",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743776438605",
+    "dcterms:modified" : "2025-04-04T14:20:38",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=24,25,766,1208"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M24.30612,25.46869h383.17311v0h383.17311v604.15925v604.15925h-383.17311h-383.17311v-604.15925z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9cf54fa2-f598-44a2-b842-65c4f8bf7f5e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://9aebc5a0-50c3-4a0b-bd08-0afd704b665b"
+    } ]
+  } ],
+  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f002.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

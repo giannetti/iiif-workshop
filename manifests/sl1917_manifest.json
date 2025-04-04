@@ -5,11 +5,11 @@
   "label" : "[Click to edit label]",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "Rutgers College Varsity Football Team in 1917",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "license" : "https://creativecommons.org/public-domain/cc0/",
+  "attribution" : "Public Domain",
   "sequences" : [ {
     "@id" : "http://9de5b3c5-3d03-4c55-be11-6acf39d4946d",
     "@type" : "sc:Sequence",

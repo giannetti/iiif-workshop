@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://giannetti.github.io/iiif-workshop/annotations/canvas1.json", "https://giannetti.github.io/iiif-workshop/annotations/canvas2.json", "https://giannetti.github.io/iiif-workshop/annotations/canvas3.json", "https://giannetti.github.io/iiif-workshop/annotations/f000.json" ],
+  "otherContent" : [ "https://giannetti.github.io/iiif-workshop/annotations/canvas1.json", "https://giannetti.github.io/iiif-workshop/annotations/canvas2.json", "https://giannetti.github.io/iiif-workshop/annotations/canvas3.json", "https://giannetti.github.io/iiif-workshop/annotations/f000.json", "https://giannetti.github.io/iiif-workshop/annotations/f001.json" ],
   "@id" : "https://giannetti.github.io/iiif-workshop/annotations/collection.json",
   "label" : "All annotations loaded in giannetti/iiif-workshop project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"

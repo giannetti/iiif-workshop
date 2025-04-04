@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "11-3-18Dear Sil;Received your letter dated Oct 4th on the 31st and certainly was glad to hear from you. By the way have you received any of my letters since I started working again? You surely must have your hands full with college work now. Don Stork is back from the States now and he said that he visited [New Brunswick] but, didn't see a soul whom he knew. The old place certainly must seem strange. You say that there are 42 men in the Delt house? Where the deuce are they all sleeping? Is the Madam still helping house? If she is she certainly must have her hands full. Remember me to her the next time you see her. That is news",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>11-3-18<br /><br />Dear Sil;<br /><br />Received your letter dated Oct 4th on the 31st and certainly was glad to hear from you. By the way have you received any of my letters since I started working again? You surely must have your hands full with college work now. Don Stork is back from the States now and he said that he visited [New Brunswick] but, didn't see a soul whom he knew. The old place certainly must seem strange. You say that there are 42 men in the Delt house? Where the deuce are they all sleeping? Is the Madam still helping house? If she is she certainly must have her hands full. Remember me to her the next time you see her. That is news</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-04T14:19:22",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743776361102",
+    "dcterms:modified" : "2025-04-04T14:19:22",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/bracher_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=32,53,832,1223"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M34.26806,133.62789l756.38428,-80.94639l72.98445,1174.38613l-765.67321,49.09863l-66.3495,-1145.19235l26.5398,15.92388\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"rough_path_d68e7463-cf58-488b-88e5-3f0a68dbf80a\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://b5a06f3f-b1b3-4d00-804e-751e58bb4391"
+    } ]
+  } ],
+  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/f000.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

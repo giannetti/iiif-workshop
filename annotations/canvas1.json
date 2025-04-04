@@ -2,6 +2,39 @@
   "@type" : "sc:AnnotationList",
   "resources" : [ {
     "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Site of Delta Upsilon House, mentioned in Bracher's letter",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Site of Delta Upsilon House, mentioned in Bracher's letter</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/8978222",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2025-04-04T15:19:39",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1743779979084",
+    "dcterms:modified" : "2025-04-04T15:19:39",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://giannetti.github.io/iiif-workshop/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=367,364,68,42"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M366.92109,371.76327l6.50789,29.28551l31.72597,4.88092l24.40459,-10.57532l4.88092,-21.96413l-29.28551,-9.76184l-36.60689,7.32138z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"rough_path_30b2edbb-28e2-43bd-ac98-60bf4afc7b9f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2b042b90-f311-4007-8641-137d35a194c3"
+    } ]
+  }, {
+    "resource" : [ {
       "http://dev.llgc.org.uk/sas/full_text" : "Bleecker Place was replaced by Voorhees Mall later in the 20th century.",
       "@type" : "dctypes:Text",
       "format" : "text/html",
@@ -34,6 +67,6 @@
       "full" : "http://2b042b90-f311-4007-8641-137d35a194c3"
     } ]
   } ],
-  "@id" : "https://giannetti.github.io/iiif-workshop/annotations/canvas1.json",
+  "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/8978222/a68fabad957d09bb055eaa672bbcf155.json",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
 }
